@@ -17,11 +17,6 @@ the task at hand.
 Instructions
 ============
 
-The following tasks will either have you interacting with existing files in
-the assignment repository or creating new ones on the fly. Don't forget to add
-your interpreter directive, utf-8 encoding, and a short docstring with any new
-files that you create!
-
 .. important::
 
     In these exercises, you may, on occasion, come across a task that requres
