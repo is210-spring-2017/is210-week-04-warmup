@@ -42,117 +42,12 @@ Tasks
 Task 01
 -------
 
-Functions have their own documentation standards which are covered in the
-Google Python Style Guide. Document the function found here appropriately.
-
-.. warning::
-
-    Neither Lint nor Unit tests will test the quality of your documentation or
-    whether or not it's formatted correctly. You must document each function
-    correctly in order to receive credit.
-
-.. hint::
-
-    Indentation and spacing both matter so pay attention to how you indent the
-    headers and the sections.
-    
-.. hint::
-
-    Remember that optional parameters should be indicated as-such in their
-    declaration!
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Document the function in ``task_01.py`` according to the Google Python
-    Style Guide.
-
-.. hint::
-
-    You can use the ``help()`` function to test your docstring as below.
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_01
-    >>> help(task_01.know_what_i_mean)
-
-Task 02
--------
-
-Calling a function is already something we've done a few times but let's
-practice it again just to make sure we've connected the dots.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Open ``hamlet.py`` to get a sense of what this function does.
-
-2.  Open ``task_02.py`` and call the ``hamlet.crazy_math()`` math function
-    assigning it the following parameters in order:
-
-    1.  4
-
-    2.  100000
-
-    3.  8
-
-    4.  98
-
-3.  Assign the returned result to a new global variable named ``POSITIONAL``
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_02
-    >>> print task_02.POSITIONAL
-    0.00374391674995
-
-Task 03
--------
-
-Positional parameters may suffice in many cases but most programmers prefer to
-use keyword arguments. Here you'll call a function with keyword arguments
-instead of positional parameters.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Open ``hamlet.py`` to get a sense of what this function does.
-
-2.  Open ``task_03.py`` and call the ``hamlet.crazy_math()`` math function
-    assigning it the following parameters by keyword reference:
-
-    1.  bananas: 48
-
-    2.  monkeys: 84
-
-    3.  hours: 200000
-
-3.  Assign the returned result to a new global variable named ``KEYWORD``
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_03
-    >>> print task_03.KEYWORD
-    0.00879168510437
-
-Task 04
--------
-
 In this task, you'll be defining a function with three parameters.
 
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new file names ``task_04.py``
+1.  Open a new Jupyter notebook 
 
 2.  Define a new function named ``too_many_kittens`` that takes three
     arguments, in order:
@@ -186,7 +81,7 @@ Specifications
     some number like ``0`` or even ``None`` and this would continue to operate
     in a reasonably sane manner.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -208,7 +103,7 @@ Here we'll set a default value in our function definition.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a file named ``task_05.py``
+1.  Keep working on the same notebook
 
 2.  Create a new function named ``defaults`` with two parameters:
     
@@ -222,7 +117,7 @@ Specifications
 
         my_optional is my_required
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -236,53 +131,14 @@ Examples
     >>> defaults(False, False)
     True
 
-Executing Tests
-===============
 
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
 
 Submission
 ==========
 
-Your code should be submitted via Blackboard, as a compressed folder containing python files.
+Code should be submitted via Blackboard as a single Jupyter notebook file.
+
+In order to receive full credit you must complete the assignment as-instructed and without any violations (reported in the build status).
 
 .. _GitHub: https://github.com/
 .. _Python String Documentation: https://docs.python.org/2/library/stdtypes.html
