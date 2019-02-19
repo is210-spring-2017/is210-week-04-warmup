@@ -90,7 +90,7 @@ Expected Output
     >>> too_many_kittens(12, 13, True)
     False
 
-Task 05
+Task 02
 -------
 
 Here we'll set a default value in our function definition.
